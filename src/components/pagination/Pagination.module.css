@@ -1,0 +1,18 @@
+.pagination {
+    display: flex;
+    justify-content: end;
+    color: black;
+    margin-top: 20px;
+  }
+  
+  .pagination span {
+    padding: 5px 10px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  .pagination .active {
+    background-color: #8b005d;
+    color: white;
+  }
+  
